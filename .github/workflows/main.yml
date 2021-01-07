@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: yarn
+        run: yarn
       -name: Release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
