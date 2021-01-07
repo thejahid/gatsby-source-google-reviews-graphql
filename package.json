@@ -1,6 +1,6 @@
 {
     "name": "gatsby-source-google-reviews-graphql",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "A gatsby source plugin by developerjahid. This plugin we can get google reviews from your business. We need to use google my business to get your reviews. For this plugins email at [jhpabel@gmail.com], Thanks.",
     "main": "index.js",
     "scripts": {
