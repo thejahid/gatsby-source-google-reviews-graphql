@@ -1,0 +1,33 @@
+{
+    "name": "gatsby-source-google-reviews-graphql",
+    "version": "1.0.1",
+    "description": "A gatsby source plugin by developerjahid. This plugin we can get google reviews from your business. We need to use google my business to get your reviews. For this plugins email at [jhpabel@gmail.com], Thanks.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/developerjahid/gatsby-source-google-reviews-graphql.git"
+    },
+    "author": "developerjahid",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/developerjahid/gatsby-source-google-reviews-graphql.git/issues"
+    },
+    "homepage": "https://github.com/developerjahid/gatsby-source-google-reviews-graphql.git#readme",
+    "release": {
+      "plugins": [
+        "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "gatsby-source-google-reviews-graphql"
+        }
+      ],
+      "@semantic-release/github"
+      ]
+    }
+
+  }
