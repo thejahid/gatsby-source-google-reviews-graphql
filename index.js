@@ -1,1 +1,1 @@
-//visit developerjahid.com
+//visit thejahid.me
